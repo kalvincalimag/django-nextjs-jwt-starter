@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+local_settings.py
+
+# Local development environment
+**/.env
+.env
+.venv/
+env/
+venv/
+.env.local
+.env*.local
+**/.env.local
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache
+*.cover
+*.py,cover
+/coverage
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Front-end stuff
+frontend/.next/
+node_modules/
+npm-debug.log
+.yarn/install-state.gz
+/.pnp
+.pnp.js
+/.next/
+/out/
+.build
+/build
+vercel/
+
+# Ignore local documentation files
+local_documentation.txt
+
+# Django static and media files
+/media/
+/staticfiles/
+
+# Editor specific / OS generated files
+.vscode/
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
